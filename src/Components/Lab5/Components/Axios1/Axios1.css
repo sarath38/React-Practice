@@ -1,0 +1,32 @@
+.card-body p{
+    padding: 15px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+.mb-5, .my-5 {
+margin-bottom: 1rem !important;
+}
+.card.axios {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    height: 400px;
+}
+.posts p {
+    padding: 0;
+    line-height: 16px;
+    margin: 15px 0px;
+}
+.posts {
+    width: 800px;
+    margin: 0 auto;
+}
+.input p{
+    padding:0px;
+}
