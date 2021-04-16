@@ -15,12 +15,12 @@ import Storage from '../src/Components/Lab4/Components/Form/Storage'
 import FormChange from './Components/Lab4/Components/FormChange/FormChange'
 import AxiosComp from './Components/Lab5/Components/Axios/AxiosComp'
 import Axios1 from './Components/Lab5/Components/Axios1/Axios1'
-import Home from './Components/Lab6/Home/Home'
+import Home from './Components/Lab6/Components/Home/Home'
 import {BrowserRouter as Router,Switch,Route} from 'react-router-dom'
-import User from './Components/Lab6/User/User'
-import Post from './Components/Lab6/Post/Post'
-import Comments from './Components/Lab6/Comments/Comments'
-import Counter from './Components/Lab7/Counter/Counter'
+import User from './Components/Lab6/Components/User/User'
+import Post from './Components/Lab6/Components/Post/Post'
+import Comments from './Components/Lab6/Components/Comments/Comments'
+// import Counter from './Components/Lab7/Components/Counter'
 
 class App extends Component {
   render() {
