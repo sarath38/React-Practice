@@ -23,7 +23,7 @@ margin-bottom: 1rem !important;
     line-height: 16px;
     margin: 15px 0px;
 }
-.posts {
+.posts.data {
     width: 800px;
     margin: 0 auto;
 }

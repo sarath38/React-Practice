@@ -1,8 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react'
 import Axios from 'axios'
-import '../Axios1/Axios1.css'
+import '../Post/Post.css'
 
-class Axios1 extends React.Component{
+class Post extends React.Component{
     constructor(props) {
         super(props)
     
@@ -28,7 +28,7 @@ class Axios1 extends React.Component{
     }
     render(){
         return <div mt-5>
-            <h2>Form-Posts</h2>
+            <h2 className="mt-5 mb-4">Posts Component</h2>
             <div className="row">
                 <div className="col-md-4"></div>
                 <div className="col-md-4 input">
@@ -44,16 +44,20 @@ class Axios1 extends React.Component{
                 </div>
                 <div className="col-md-4"></div>
             </div>
-            <div className="row mt-1 mb-5">
+            <div className="row mt-1 mb-5  posts">
                 {
                     this.state.data.length > 0 ?  
                         this.state.data.map(function(element,index){
-                            return <div className="col-md-12">
-                                <div className="posts data">
-                                    <p><b>ID:</b> {element.id}</p>
-                                    <p><b>Title:</b> {element.title}</p>
-                                    <p><b>Body:</b> {element.body}</p>
-                                    
+                            return <div className="col-md-3">
+                                <div className="card posts mt-3">
+                                    <div className="card-header bg-warning">
+                                        <h4 className="text-info">Hello</h4>
+                                    </div>
+                                    <div className="card-body posts bg-success text-white">
+                                        <p><b>ID:</b> {element.id}</p>
+                                        <p><b>Title:</b> {element.title}</p>
+                                        <p><b>Body:</b> {element.body}</p>
+                                    </div>
                                 </div>
                             </div>
                         })
@@ -66,4 +70,4 @@ class Axios1 extends React.Component{
 
 
 }
-export default Axios1
+export default  Post
